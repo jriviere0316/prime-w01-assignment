@@ -19,4 +19,4 @@ One would run the command 'git status' to verify the current state of the reposi
 # 9 - What does the command 'git add .' do?
 The 'git add' command tells git you want to include the changes one has applied to a file in the next commit.
 # 10 - What is the command to push your committed changes to your repo on GitHub?
-git push
+git push -u origin master
