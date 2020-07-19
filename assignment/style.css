@@ -6,7 +6,12 @@ body {
 header {
   background-color: #ddd;
 }
-
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 33%;
+}
 footer {
   background-color: #ddd
 }
@@ -19,6 +24,7 @@ p {
   color: green;
   font-size: 30px;
   font-style: italic;
+  text-align: center;
 
 }
 /* Put a border around your image */
@@ -32,4 +38,7 @@ width: 33%;
 /* Change the font-family of your list */
 li {
   font-family: fantasy;
+  text-align: center;
+  list-style-type: none;
+
 }
